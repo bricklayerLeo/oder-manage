@@ -11,7 +11,9 @@
 </template>
 
 <script>
+
 export default {
+  
     methods:{
         getmenu(){
             this.$router.push('/menu')
@@ -23,19 +25,18 @@ export default {
 
 <style>
 .tupian{
-    width: 100%;
-    height:80vh;
-    background:url('../assets/home.jpg')no-repeat top/100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    height: 800px;
+    background:url('../assets/home.jpg')no-repeat  top/100% 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
     
 }
 .zhong{
-    position: absolute;
-    top: 290px;
-    width: 40%;
-    height: 20%;
+ 
+    width: 400px;
+    height: 250px;
     border-radius: 20px;
     opacity: .8;
     background-color: white;

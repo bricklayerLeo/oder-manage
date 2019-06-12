@@ -1,4 +1,5 @@
 <template> 
+<div class="container">
  <div class="row">
     <div class="col-sm-12 col-md-8">
       <!-- new pizza -->
@@ -24,6 +25,7 @@
         </tbody>
       </table>
     </div>
+  </div>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class="container">
        <div class="row mb-5">
        <div class="col-4 ">
            <div class="list-group mb-5">
